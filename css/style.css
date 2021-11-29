@@ -59,13 +59,13 @@ p{
 }
 
 #slide1{
-    background-image: url('/images/desktop1.png');
+    background-image: url('../images/desktop1.png');
 }
 #slide2{
-    background-image: url('/images/desktop2.png');
+    background-image: url('../images/desktop2.png');
 }
 #slide3{
-    background-image: url('/images/desktop3.png');
+    background-image: url('../images/desktop3.png');
 }
 
 .carousel-caption{
@@ -113,13 +113,13 @@ p{
 }
 
 #slide1{
-    background-image: url('/images/mobile1.png');
+    background-image: url('../images/mobile1.png');
 }
 #slide2{
-    background-image: url('/images/mobile2.png');
+    background-image: url('../images/mobile2.png');
 }
 #slide3{
-    background-image: url('/images/mobile3.png');
+    background-image: url('../images/mobile3.png');
 }
 
 } 
