@@ -1,4 +1,4 @@
-
+/* General styling */
  body{
     overflow-x: hidden;
     background-color:white;
@@ -61,6 +61,12 @@ p{
 #slide1{
     background-image: url('/images/desktop1.png');
 }
+#slide2{
+    background-image: url('/images/desktop2.png');
+}
+#slide3{
+    background-image: url('/images/desktop3.png');
+}
 
 .carousel-caption{
     position:absolute;
@@ -108,6 +114,12 @@ p{
 
 #slide1{
     background-image: url('/images/mobile1.png');
+}
+#slide2{
+    background-image: url('/images/mobile2.png');
+}
+#slide3{
+    background-image: url('/images/mobile3.png');
 }
 
 } 
