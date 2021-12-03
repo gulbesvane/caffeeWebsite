@@ -10,33 +10,27 @@
 }
 
 h2{
-    font-size: 36px;
     letter-spacing: .1rem;
 }
 
 h3{
-    font-size: 24px;
     font-weight: 300;
-}
-
-h5{
-    font-size: 16PX; 
 }
 
 p{
     font-family: “Nunito Sans”,sans-serif;
-    font-size: 16px;
     font-weight: 300;
 }
 
 /* -------Navbar--------*/
  .navbar{
-    padding-top:25px;
+    padding-top:15px;
+    padding-bottom:15px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color:white;
-    font-size: 20px;
+    font-size: 1.2rem;
     letter-spacing: .1rem;
 }
 
@@ -51,6 +45,9 @@ p{
 .navbar-nav li{
     padding-right: .7rem;
 }
+/* .sticky{
+    background-color:#f8d1aaad;
+} */
 /*---------- Slider -----------*/
 .carousel-item{
     height:100vh;
@@ -59,13 +56,13 @@ p{
 }
 
 #slide1{
-    background-image: url('../images/desktop1.png');
+    background-image: url('../images/desktop1.jpg');
 }
 #slide2{
-    background-image: url('../images/desktop2.png');
+    background-image: url('../images/desktop2.jpg');
 }
 #slide3{
-    background-image: url('../images/desktop3.png');
+    background-image: url('../images/desktop3.jpg');
 }
 
 .carousel-caption{
@@ -77,7 +74,7 @@ p{
 }
 
 .carousel-caption h1{
-    font-size:10.8vw;
+    font-size:10vw;
     font-weight:400;
     letter-spacing: .7rem;
     color:#242424;
@@ -101,9 +98,74 @@ p{
     color:white;
 }
 
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: #473f3f;
+    opacity: .1;
+}
+
+/*--------Footer section---------*/
+
+.footer-container{
+    background-color: #c2c1bc;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.footer-col{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    flex-basis:40%;
+    text-align: center;
+}
+.row-inner1{
+    padding-bottom: 1vw;
+    align-items: center;
+}
+.row-inner1 h6{
+    margin-bottom: 0;
+}
+
+.row-inner2 h6{
+    margin-bottom: 0;
+    font-weight:300;
+}
+
+.social-icon{
+    padding-left: 0.5rem;
+    padding-right: .5rem;
+}
+
+.footer-link{
+    color:white;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    padding-right: .7rem;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color:#242424!important;
+    text-decoration:underline;
+    text-underline-offset: 0.2rem;
+    text-decoration-color: #c7a079;
+    text-decoration-thickness: 0.15rem;
+}
 
 
 @media all and (max-width: 991px){
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1rem;
+}
+
 .container-sm{
     max-width: 850px;
 }
@@ -113,13 +175,22 @@ p{
 }
 
 #slide1{
-    background-image: url('../images/mobile1.png');
+    background-image: url('../images/mobile1.jpg');
 }
 #slide2{
-    background-image: url('../images/mobile2.png');
+    background-image: url('../images/mobile2.jpg');
 }
 #slide3{
-    background-image: url('../images/mobile3.png');
+    background-image: url('../images/mobile3.jpg');
+}
+
+.footer-container{
+    display: block;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.row-inner1{
+    padding-bottom: 2vw;
 }
 
 } 
