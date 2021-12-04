@@ -195,3 +195,14 @@ p{
 
 } 
 
+/*ABOUT  PART*/
+.about{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.coffeebackground{
+    background-color: #c7a079;
+}
+.central{
+    text-align: center;
+}
