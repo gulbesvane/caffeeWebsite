@@ -95,7 +95,7 @@ p{
 .btn-lg:hover{
     background-color: transparent;
     border-color: #c7a079;
-    color:white;
+    color:#c7a079;
 }
 
 .overlay{
@@ -195,7 +195,7 @@ p{
 
 } 
 
-/*ABOUT  PART*/
+/*ABOUT & BREW GUIDE PART*/
 .about{
     padding-top: 3vh;
     padding-bottom: 3vh;
@@ -205,4 +205,26 @@ p{
 }
 .central{
     text-align: center;
+}
+.zoom {
+    padding: 50px;
+    transition: transform .2s; 
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+.zoom:hover {
+    transform: scale(1.5); 
+}
+ul{
+    font-family: “Nunito Sans”,sans-serif;
+    font-weight: 300;
+}
+.accordion-header{
+    font-family: “Nunito Sans”,sans-serif;
+    font-weight: 300;
+}
+.accordion-button:not(.collapsed){
+    color:white;
+    background-color: #c7a079;
 }
