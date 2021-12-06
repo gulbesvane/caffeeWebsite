@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>About CAFFEE coffee shop</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us - CAFFEE coffee shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-		
 </head>
-
 <body>
+    <header>
+        <!-- Start of Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-sm">
+                <a href="#"></a>
+                <button class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+    
+                <div class="collapse navbar-collapse ms-auto" id="navbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link active" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="../products/index.html">COFFEE/GEAR</a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="../contact/index.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End of Navigation bar -->
 
+     <!-- Start of Image slider section -->
+     <div class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url(../images/brooke-cagle-RnDGGnMEOao-unsplash.jpg);" alt="Picture of the founders at CAFFEE">
+                <div class="overlay"></div>
+                <div class="carousel-caption text-center">
+                    <h1>ABOUT US</h1>
+                    <h3>Let's meet!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Image slider -->	
 
-<div class="container-about">
-
+<div class="container">
+<br/>
 	<!-- Start of WHO WE ARE section -->
-	<div class="row whoweare">
-		<div class="col-lg-4 about-image">
+	<div class="row about">
+		<div class="col text">
 			<h1>WHO WE ARE</h1>
-			<h2>I'M AN IMAGE</h2>
-		</div>
-		
-		<div class="col-lg-4 about-text">
 			<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis consequat lorem, pharetra laoreet odio. Praesent tempus justo non mauris ultricies, vel fringilla tortor tincidunt. Suspendisse mattis hendrerit nulla, mattis vestibulum dui tristique sed. Ut massa enim, blandit sit amet sapien sed, dignissim elementum dui. Vestibulum ultrices, dui mattis euismod maximus, neque ante vestibulum nulla, eu porta justo ex eget libero. Praesent hendrerit velit vel arcu maximus, at mattis diam elementum. Quisque in vehicula purus. Vivamus aliquam fermentum massa, at pulvinar justo iaculis at.
 			</p>
@@ -28,60 +69,91 @@
 	</div>
 
 	<!-- Start of OUR COFFEE section -->
-	
-	<div class="row ourcoffee">
-		<div class="col-lg-4 about-text">
+	<br/>
+	<div class="row about coffeebackground">
+		<div class="col central">
+			<img src="../images/resized/Image-about-2.jpg" alt="Picture of the founders at CAFFEE">
+		</div>
+		<div class="col text">
 			<h1>OUR COFFEE</h1>
 			<p>
 			Pellentesque in neque felis. Cras nibh nisl, condimentum ac pretium vitae, accumsan id elit. Suspendisse varius felis eu accumsan pharetra. Vestibulum gravida nec est ac suscipit. Mauris hendrerit eu mauris a sodales. Integer vitae auctor elit. Fusce consequat vulputate lacus a porta. Maecenas ac metus molestie, vulputate tortor ac, sodales lacus.
 			</p>
 		</div>
 		
-		<div class="col-lg-4 about-image">
-			<h2>I'M AN IMAGE</h2>
-		</div>
-	</div>
-
-	<!-- Start of SUSTAINABILITY section -->
-	<div class="row sustainability">
-		<div class="col-lg-4 about-image">
-			<h1>SUSTAINABILITY</h1>
-			<h2>I'M AN IMAGE</h2>
-		</div>
 		
-		<div class="col-lg-4 about-text">
+	</div>
+	<br/>
+	<!-- Start of SUSTAINABILITY section -->
+	<div class="row about">
+		<div class="col text">
+			<h1>SUSTAINABILITY</h1>
 			<p>
 			Mauris tincidunt ipsum eros, non porttitor nibh volutpat ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Cras ornare sem vitae lacus vestibulum elementum. Phasellus at est vitae est tempor euismod. Suspendisse potenti. Mauris ac nunc tellus. Nunc dignissim ex quis tellus faucibus consequat. Nam augue leo, fermentum ut eros vitae, commodo suscipit nunc.
 			</p>
 		</div>
+		<div class="col central">
+			<img src="../images/resized/Image-about-3.jpg" alt="Picture of the founders at CAFFEE">
+		</div>
 	</div>
-
+	<br/>
 	<!-- Start of EVENTS section -->
-	<div class="row events">
-		<div class="col-lg-4 about-text">
+	<div class="row about coffeebackground">
+		<div class="col central">
+			<img src="../images/resized/Image-about-4.jpg" alt="Picture of the founders at CAFFEE">
+		</div>		
+		<div class="col text">
 			<h1>EVENTS</h1>
 			<p>
 			Pellentesque in neque felis. Cras nibh nisl, condimentum ac pretium vitae, accumsan id elit. Suspendisse varius felis eu accumsan pharetra. Vestibulum gravida nec est ac suscipit. Mauris hendrerit eu mauris a sodales. Integer vitae auctor elit. Fusce consequat vulputate lacus a porta. Maecenas ac metus molestie, vulputate tortor ac, sodales lacus.
 			</p>
 		</div>
-		
-		<div class="col-lg-4 about-image">
-			<h2>I'M AN IMAGE</h2>
-		</div>		
 	</div>
-
+		
+	<br/>
 	<!-- Start of COOPERATION section -->
-	<div class="row cooperation">
-		<div class="col-lg-10 cooperation">
+	<div class="row about">
+		<div class="col central">
 			<h1>INTERESTED IN COOPERATION?</h1>
 			<p>
 			Aliquam erat volutpat. Cras ornare sem vitae lacus vestibulum elementum. Phasellus at est vitae est tempor euismod. Suspendisse potenti. 
 			</p>
-			<button>CLICK HERE</button>
+			<button class="btn btn-outline-light btn-lg" href="../contact/index.html">CLICK HERE</button>
 		</div>
 	</div>
 
 </div>
+
+<!--FOOTER-->
+<footer class="footer-container">
+	<div class="footer-col">
+		<div class="row-inner1">
+			<h6>FOLLOW US!</h6>
+		</div>
+		<div class="row-inner2">
+			<a class="social-icon" href="facebook.com">
+				<img src="../images/facebook.png" alt="facebook logo" width="30" height="30">
+			</a>
+			<a class="social-icon" href="facebook.com">
+				<img src="../images/facebook.png" alt="facebook logo" width="30" height="30">
+			</a>
+			<a class="social-icon" href="facebook.com">
+				<img src="../images/facebook.png" alt="facebook logo" width="30" height="30">
+			</a>
+		</div>
+	</div>
+	<div class="footer-col">
+		<div class="row-inner1">
+			<a class="footer-link" href="#">HOME</a>
+			<a class="footer-link" href="about/">ABOUT US</a>
+			<a class="footer-link" href="products/">COFFEE/GEAR</a>
+			<a class="footer-link" href="contact/">CONTACT</a>
+		</div>
+		<div class="row-inner2">
+			<h6>Copyright company 2021</h6>
+		</div>
+	</div>
+</footer>
 
 </body>
 </html>

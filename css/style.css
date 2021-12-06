@@ -246,3 +246,36 @@ p{
 
 } 
 
+/*ABOUT & BREW GUIDE PART*/
+.about{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.coffeebackground{
+    background-color: #c7a079;
+}
+.central{
+    text-align: center;
+}
+.zoom {
+    padding: 50px;
+    transition: transform .2s; 
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+.zoom:hover {
+    transform: scale(1.5); 
+}
+ul{
+    font-family: “Nunito Sans”,sans-serif;
+    font-weight: 300;
+}
+.accordion-header{
+    font-family: “Nunito Sans”,sans-serif;
+    font-weight: 300;
+}
+.accordion-button:not(.collapsed){
+    color:white;
+    background-color: #c7a079;
+}
