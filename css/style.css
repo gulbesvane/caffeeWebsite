@@ -45,10 +45,11 @@ p{
 .navbar-nav li{
     padding-right: .7rem;
 }
-/* .sticky{
-    background-color:#f8d1aaad;
-} */
-/*---------- Slider -----------*/
+.sticky{
+    background-color:#adaeb2d1;
+}
+
+/*---------- Carousel -----------*/
 .carousel-item{
     height:100vh;
     background-repeat: no-repeat;
@@ -85,19 +86,6 @@ p{
     padding-bottom: 1vw;
 }
 
-.btn-lg{
-    border-color: #c7a079;
-    background-color: #c7a079;
-    border-radius: 0;
-    border-width: medium;
-    color:white;
-}
-.btn-lg:hover{
-    background-color: transparent;
-    border-color: #c7a079;
-    color:white;
-}
-
 .overlay{
     position: absolute;
     top:0;
@@ -107,6 +95,59 @@ p{
     background-color: #473f3f;
     opacity: .1;
 }
+
+/*---------Buttons-----------*/
+
+.btn{
+    border-color: #c7a079;
+    border-radius: 0;
+    border-width: medium;
+}
+
+.btn-lg{
+    background-color: #c7a079;
+    color:white;
+}
+.btn-md{
+    background-color: transparent;
+    color:#c7a079;
+}
+.btn-lg:hover{
+    background-color: transparent;
+    /* border-color: #c7a079; */
+    color:white;
+}
+.btn-md:hover{
+    background-color: #c7a079;
+    color:white;
+}
+
+
+/*------Contact page map and form------*/
+#googleMap{
+    width:100%;
+    height:100%;
+    border:0;
+}
+.my-form {
+    color: #242424;
+}
+
+.my-form .form-control {
+    border-radius: 0;
+}
+
+.form-group{
+    padding-bottom: 2vw;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color:#242424;
+    letter-spacing: 0.1rem;
+}
+.contact-col{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
 
 /*--------Footer section---------*/
 
@@ -159,16 +200,19 @@ p{
     text-decoration-thickness: 0.15rem;
 }
 
-
+/*-----Tablet and mobile size-----*/
 @media all and (max-width: 991px){
 
+/*---------Nav bar-------------*/
 .navbar-dark .navbar-nav .nav-link {
     font-size: 1rem;
 }
 
 .container-sm{
     max-width: 850px;
-}
+} 
+
+/*----------------Carousel---------------------*/
 
 .carousel-caption{
     top:40%;
@@ -183,6 +227,13 @@ p{
 #slide3{
     background-image: url('../images/mobile3.jpg');
 }
+
+/*------Contact page------*/
+#googleMap{
+    height:400px;
+}
+
+/*------Footer---------*/
 
 .footer-container{
     display: block;
