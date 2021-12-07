@@ -13,14 +13,14 @@
 </head>
 <body>
     <header>
-        <!-- Start of Navigation bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+         <!-- Start of Navigation bar -->
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="full-nav">
             <div class="container-sm">
                 <a href="#"></a>
                 <button class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button> 
-    
+
                 <div class="collapse navbar-collapse ms-auto" id="navbar">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item ms-auto">
@@ -45,7 +45,7 @@
         <div class="carousel-inner" role="listbox">
             <!-- Slide 1 -->
             <div class="carousel-item active" style="background-image: url(../images/brew-guide/rene-porter-pLPZjZL8cII-unsplash.jpg" alt="Picture of the founders at CAFFEE">
-                <div class="overlay"></div>
+                <div class="overlay light"></div>
                 <div class="carousel-caption text-center">
                     <h1>BREW GUIDES</h1>
                     <h3>There's more to it!</h3>
@@ -54,7 +54,7 @@
         </div>
     </div>
     <!-- End of Image slider -->	
-
+</header>
 <!--Start of the BREW GUIDE-->
 
 <div class="container">
@@ -133,7 +133,18 @@
         </div>
     </div>
     <!--End of ESPRESSO-->
-
+<!--Start of REPEAT BUTTONS-->
+<div class="row about">
+    <div class="col central">
+    <button class="btn btn-outline-light btn-lg">ESPRESSO</button>
+    <button class="btn btn-outline-light btn-lg">V60</button>
+    <button class="btn btn-outline-light btn-lg">AEROPRESS</button>
+    <button class="btn btn-outline-light btn-lg">FRENCH PRESS</button>
+    <button class="btn btn-outline-light btn-lg">CHEMEX</button>
+    <button class="btn btn-outline-light btn-lg">MOKKA POT*</button>
+    </div>
+</div>
+<!--End of REPEAT BUTTONS-->
     <div class="row about">
         <h2>Looking for more? Check out our events!</h2>
     </div>
@@ -217,4 +228,5 @@
 </footer>
 
 </body>
+<script type="text/javascript" src="../scripts/onScroll.js"></script>
 </html>
