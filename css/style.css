@@ -165,7 +165,8 @@ p{
 }
 .btn-lg:hover{
     background-color: transparent;
-    color:white;
+    color:#c7a079;
+    border-color: #c7a079;
 }
 .btn-md:hover{
     background-color: #c7a079;
@@ -316,17 +317,14 @@ p{
     padding-bottom: 3vh;
 }
 .coffeebackground{
-    background-color: #c7a079;
+    background-color: #c7a079; 
 }
 .central{
     text-align: center;
 }
 .zoom {
-    padding: 50px;
     transition: transform .2s; 
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+    padding: 10px; 
   }
 .zoom:hover {
     transform: scale(1.5); 
@@ -356,4 +354,10 @@ ul{
     left: 0;
     background: rgba(255,255,255);
     opacity: 0.3;
+}
+.btn-coffee{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }

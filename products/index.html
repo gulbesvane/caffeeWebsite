@@ -60,33 +60,35 @@
 <div class="container">
     <div class="row about">
         <div class="col central">
-        <button class="btn btn-outline-light btn-lg">ESPRESSO</button>
-        <button class="btn btn-outline-light btn-lg">V60</button>
-        <button class="btn btn-outline-light btn-lg">AEROPRESS</button>
-        <button class="btn btn-outline-light btn-lg">FRENCH PRESS</button>
-        <button class="btn btn-outline-light btn-lg">CHEMEX</button>
-        <button class="btn btn-outline-light btn-lg">MOKKA POT*</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="espresso()">ESPRESSO</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="v60()">V60</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="aeropress()">AEROPRESS</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="frenchpress()">FRENCH PRESS</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="chemex()">CHEMEX</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="mokapot()">MOKA POT</button>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col">
+    <div class="row-lg-12">
+        <div class="col-lg-12">
             <p class="central">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus aliquet placerat. Aliquam felis neque, molestie ut magna sit amet, tempor interdum massa. Nulla laoreet bibendum ultricies. Integer at nulla venenatis, semper felis non, aliquet quam. Ut sit amet accumsan eros. Praesent lectus dui, consequat a arcu sed, feugiat feugiat urna. Nam tristique neque ac diam posuere suscipit. Ut ligula nisi, viverra vel viverra eu, porttitor at enim. Maecenas sit amet ultricies risus, ac vulputate mauris. In commodo nisi non arcu bibendum, ac dignissim dui semper. Phasellus pharetra rhoncus ligula, non vehicula metus iaculis in. Cras laoreet fringilla fringilla. Integer luctus risus non ipsum gravida aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean lobortis, magna quis feugiat blandit, elit massa bibendum dui, quis interdum ex eros elementum sem.
             </p>
         </div>
     </div>
+<div id="guide">
     <!--Start of ESPRESSO-->
-    <div class="row">
-        <div class="col central about">
+<div id="espresso">
+    <div class="row justify-content-center">
+        <div class="col-lg-12 central about">
             <h1>ESPRESSO</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col central about">
+        <div class="col central about order-1">
             <img src="../images/brew-guide/adi-goldstein-xKS-1DP4g7A-unsplash.jpg" alt="Cup of espresso" width="650">
         </div>
-        <div class="col about">
+        <div class="col about order-2">
             <p>
                 Morbi malesuada viverra orci eu porttitor. Curabitur sed varius massa. Nam at felis egestas, pharetra purus in, pretium risus. Etiam hendrerit pharetra massa, quis iaculis quam sodales quis. Integer eu dolor arcu. Praesent dolor leo, egestas nec ornare vel, faucibus a dui. Vivamus nec augue suscipit, elementum tortor sit amet, sollicitudin est. Duis lacinia elit nec arcu convallis, et ultrices lacus vehicula. Nulla eu erat lacus. Maecenas dictum quis urna ullamcorper vulputate. Mauris accumsan pellentesque lectus, vitae convallis orci dignissim at. Suspendisse sagittis diam vitae porttitor posuere. Nulla non elit magna. Mauris nec mauris congue, laoreet urna non, dapibus massa.
             </p>
@@ -99,14 +101,14 @@
         </div>
     </div>
     <div class="row about">
-        <div class="col central zoom">
-            <img src="../images/product1.jpg" alt="Beans Brand no.1" width="200">
+        <div class="col-lg-4 central zoom order-1 order-lg-1">
+            <img src="../images/product1.jpg" alt="Beans Brand no.1" width="250">
         </div>
-        <div class="col central zoom">
-            <img src="../images/product2.jpg" alt="Beans Brand no.2" width="200">
+        <div class="col-lg-4 central zoom order-2 order-lg-2">
+            <img src="../images/product2.jpg" alt="Beans Brand no.2" width="250">
         </div>
-        <div class="col central zoom">
-            <img src="../images/product1.jpg" alt="Beans Brand no.3" width="200">
+        <div class="col-lg-4 central zoom order-3 order-lg-3">
+            <img src="../images/product1.jpg" alt="Beans Brand no.3" width="250">
         </div>
     </div>
 
@@ -132,19 +134,46 @@
                 </ul></p>
         </div>
     </div>
-    <!--End of ESPRESSO-->
-<!--Start of REPEAT BUTTONS-->
-<div class="row about">
-    <div class="col central">
-    <button class="btn btn-outline-light btn-lg">ESPRESSO</button>
-    <button class="btn btn-outline-light btn-lg">V60</button>
-    <button class="btn btn-outline-light btn-lg">AEROPRESS</button>
-    <button class="btn btn-outline-light btn-lg">FRENCH PRESS</button>
-    <button class="btn btn-outline-light btn-lg">CHEMEX</button>
-    <button class="btn btn-outline-light btn-lg">MOKKA POT*</button>
-    </div>
 </div>
+<!--End of ESPRESSO-->
+
+<!--Start of V60-->
+
+<!--End of V60-->
+
+<!--Start of Aeropress-->
+
+<!--End of Aeropress-->
+
+<!--Start of French Press-->
+
+<!--End of French Press-->
+
+<!--Start of Chemex-->
+
+<!--End of Chemex-->
+
+<!--Start of Moka Pot-->
+
+<!--End of Moka Pot-->
+
+<!--End of the BREW GUIDE-->
+</div>
+
+<!--Start of REPEAT BUTTONS-->
+<div class="container">
+    <div class="row about">
+        <div class="col central">
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="espresso()">ESPRESSO</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="v60()">V60</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="aeropress()">AEROPRESS</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="frenchpress()">FRENCH PRESS</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="chemex()">CHEMEX</button>
+            <button class="btn btn-outline-light btn-lg btn-coffee" onclick="mokapot()">MOKA POT</button>
+        </div>
+    </div>
 <!--End of REPEAT BUTTONS-->
+
     <div class="row about">
         <h2>Looking for more? Check out our events!</h2>
     </div>
@@ -195,7 +224,7 @@
     </div>
 </div>
 
-<!--End of the BREW GUIDE-->
+
 <!--FOOTER-->
 <footer class="footer-container">
 	<div class="footer-col">
@@ -229,4 +258,5 @@
 
 </body>
 <script type="text/javascript" src="../scripts/onScroll.js"></script>
+<script type="text/javascript" src="../scripts/brewguide.js"></script>
 </html>
