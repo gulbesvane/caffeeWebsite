@@ -16,7 +16,6 @@ function validateForm(){
         }
         else if(inputElements[i]!=""){
             fieldsFilled++;
-            // document.getElementById(`${i}`).style.color = "#242424";
             document.getElementById(`${i}`).innerHTML= "";
         }
         if(fieldsFilled==inputElements.length){

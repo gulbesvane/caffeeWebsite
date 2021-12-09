@@ -212,6 +212,51 @@ p{
     text-align: right!important;
 }
 
+/* Section for fade-in images */
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
+.js-scroll.scrolled {
+    opacity: 1;
+  }
+
+.scrolled.slide-left {
+    animation: slide-in-left 1s ease-in-out both;
+  }
+  
+.scrolled.slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+  }
+
+/* @keyframes makes the element go gradually from -100px to 0px on x axis and from 0 opacity to fully visible */
+@keyframes slide-in-left {
+0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+}
+100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+  
+@keyframes slide-in-right {
+0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0;
+}
+100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+
 /*------CONTACT PAGE------*/
 
 .contact-col{
