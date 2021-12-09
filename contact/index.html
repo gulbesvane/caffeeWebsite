@@ -66,26 +66,24 @@
                 <iframe id="googleMap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9526.186643759049!2d-6.2674432!3d53.3513709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x41d30a02aa514133!2sBlas%20Cafe!5e0!3m2!1sen!2sie!4v1638716050903!5m2!1sen!2sie"></iframe>
             </div>
             <div class="col-lg-6 contact-col">
-                <h3>Send us a message!</h3>
-                <form class="my-form">
+                 <form id="form" onsubmit="validateForm();return false">
+                    <h3 >Send us a message!</h3>
                     <div class="form-group">
-                        <label for="form-name">Name</label>
-                        <input type="email" class="form-control" id="form-name" placeholder="Name">
+                        <label id="0">Name (required)</label>
+                        <input type="text" class="form-control" id="form-name" placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <label for="form-email">Email Address</label>
+                        <label id="1">Email (required)</label>
                         <input type="email" class="form-control" id="form-email" placeholder="Email Address">
                     </div>
                     <div class="form-group">
-                        <label for="form-subject">Telephone</label>
-                        <input type="text" class="form-control" id="form-subject" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                        <label for="form-message">Email your Message</label>
+                        <label id="2">Message (required)</label>
                         <textarea class="form-control" id="form-message" placeholder="Message"></textarea>
                     </div>
                     <button class="btn btn-outline-light btn-md" type="submit">SEND MESSAGE</button>                
                 </form>
+                <h3 id="placeholder-name"></h3>
+                <p id="placeholder-text"></p>
             </div>
         </div>
     </div>
@@ -119,5 +117,6 @@
         </div>
     </footer>
 </body>
-<script type="text/javascript" src="../scripts/onScroll.js"></script>
+<script src="../scripts/onScroll.js"></script>
+<script src="../scripts/formValidation.js"></script>
 </html>
