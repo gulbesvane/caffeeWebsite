@@ -5,8 +5,8 @@ const scrollElements = document.querySelectorAll(".js-scroll");
 
 //detect when an element is in view of the user
 const elementInView = (el, offset) => {
-// get an element’s distance from the top of the page
-const elementTop = el.getBoundingClientRect().top;
+  // get an element’s distance from the top of the page
+  const elementTop = el.getBoundingClientRect().top;
   return (
     //compare elements distance from top of the page with the height of the viewport / offset
     elementTop <= (window.innerHeight || document.documentElement.clientHeight) / offset
@@ -31,19 +31,19 @@ const hideScrollElement = (element) => {
 };
 
 const handleScrollAnimation = () => {
-    //for every elemen in scrollElements
+  //for every elemen in scrollElements
   scrollElements.forEach((el) => {
     //check if element is in view
     if (elementInView(el, 1.5)) {
-    //if element in view call displayScrollElemen
+      //if element in view call displayScrollElemen
       displayScrollElement(el);
-    //if element is not in view call hideScroll element
+      //if element is not in view call hideScroll element
     } else if (elementOutofView(el)) {
       hideScrollElement(el)
     }
   })
 }
 
-window.addEventListener("scroll", () => { 
+window.addEventListener("scroll", () => {
   handleScrollAnimation();
 });
