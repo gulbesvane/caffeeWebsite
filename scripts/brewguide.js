@@ -1,4 +1,4 @@
-function espresso(){
+/*function espresso(){
     var targetEspresso=document.getElementById('espresso')
     document.getElementById("guide").innerHTML=targetEspresso
 }
@@ -22,3 +22,5 @@ function mokapot(){
     var targetMokapot=document.getElementById('mokapot')
     document.getElementById("guide").innerHTML=targetMokapot
 }
+
+$('#V60').html($('#V60').html());*/

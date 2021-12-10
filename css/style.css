@@ -65,6 +65,9 @@ p{
 #slide3{
     background-image: url('../images/desktop3.jpg');
 }
+#brewguide{
+    background-image: url('../images/brew-guide/rene-porter-pLPZjZL8cII-unsplash.jpg');
+}
 
 .carousel-caption{
     position:absolute;
@@ -311,6 +314,9 @@ p{
 #slide3{
     background-image: url('../images/mobile3.jpg');
 }
+#brewguide{
+    background-image: url('../images/brew-guide/rene-porter-pLPZjZL8cII-unsplash.jpg');
+}
 
 /*------Footer(MOBILE/TABLET)---------*/
 .footer-container{
@@ -359,14 +365,18 @@ p{
 
 /*ABOUT & BREW GUIDE PART*/
 .about{
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    justify-content: center;
+    align-items: center; 
 }
 .coffeebackground{
     background-color: #c7a079; 
 }
 .central{
     text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 .zoom {
     transition: transform .2s; 
