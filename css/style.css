@@ -191,7 +191,7 @@ p{
 }
 
 .card-img-top{
-    width:30%;
+    width:88px;
     margin:auto;
 }
 
@@ -211,7 +211,7 @@ p{
 /*----Cofee/gear description section----*/
 .description{
     align-items: center;
-    margin: 10vh 20vh;
+    margin: 8vh 15vh;
 }
 .description-img{
     width:80%;
@@ -340,7 +340,7 @@ p{
     margin:5vh 0vh;
 }
 .card-img-top{
-    width:25%;
+    width:106px;
 }
 
 /*--------Promo video section-----------*/
