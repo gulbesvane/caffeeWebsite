@@ -154,6 +154,14 @@ p{
     border-radius: 0;
     border-width: medium;
 }
+.btn:focus{
+    box-shadow: none!important;
+}
+
+.btn-header:hover{
+    color:white!important;
+    border-color:white!important;
+}
 
 .btn-lg{
     background-color: #c7a079;
@@ -278,6 +286,10 @@ p{
     border-radius: 0;
 }
 
+.form-control:focus{
+    box-shadow: 0 0 0 0.1rem #24242449;
+}
+
 .form-group{
     padding-bottom: 2vw;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -352,7 +364,7 @@ p{
 
 /*------CONTACT PAGE(MOBILE/TABLET)------*/
 #googleMap{
-    height:400px;
+    display:none;
 }
 
 } 
