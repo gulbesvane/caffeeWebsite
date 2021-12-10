@@ -364,7 +364,7 @@ p{
 
 /*------CONTACT PAGE(MOBILE/TABLET)------*/
 #googleMap{
-    display:none;
+    height:400px;
 }
 
 } 
