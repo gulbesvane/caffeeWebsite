@@ -66,7 +66,10 @@ p{
     background-image: url('../images/desktop3.jpg');
 }
 #brewguide{
-    background-image: url('../images/brew-guide/rene-porter-pLPZjZL8cII-unsplash.jpg');
+    background-image: url('../images/Coffee\ brew\ guides\ by\ CAFFEE.jpg');
+}
+#founders{
+    background-image: url('../images/CAFFEE\ Founders.jpg');
 }
 
 .carousel-caption{
@@ -327,7 +330,10 @@ p{
     background-image: url('../images/mobile3.jpg');
 }
 #brewguide{
-    background-image: url('../images/brew-guide/rene-porter-pLPZjZL8cII-unsplash.jpg');
+    background-image: url('../images/Coffee\ brew\ guides\ by\ CAFFEE.jpg');
+}
+#founders{
+    background-image: url('../images/CAFFEE\ Founders.jpg');
 }
 
 /*------Footer(MOBILE/TABLET)---------*/
@@ -375,7 +381,7 @@ p{
 
 } 
 
-/*ABOUT & BREW GUIDE PART*/
+/*------ABOUT & COFFEE/GEAR PAGES------*/
 .about{
     padding-top: 4vh;
     padding-bottom: 4vh;
@@ -444,4 +450,15 @@ p{
 #mokapotguide{
     display: none; 
 }
-
+.thisislink{
+    color:black;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    text-decoration:underline;
+    text-underline-offset: 0.2rem;
+    text-decoration-color: #c7a079;
+    text-decoration-thickness: 0.15rem;
+}
+.thisislink:hover{
+    color:#c7a079;
+}

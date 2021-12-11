@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#espresso").click(function(){
+    $('#espresso, #espresso2').click(function(){
         $("#espressoguide").show();
         $("#v60guide").hide();
         $("#aeropressguide").hide();
@@ -8,7 +8,7 @@ $(document).ready(function(){
         $("#mokapotguide").hide();
     });
 
-    $("#v60").click(function(){
+    $('#v60, #v602').click(function(){
         $("#espressoguide").hide();
         $("#v60guide").show();
         $("#aeropressguide").hide();
@@ -17,7 +17,7 @@ $(document).ready(function(){
         $("#mokapotguide").hide();
     });
   
-    $("#aeropress").click(function(){
+    $('#aeropress, #aeropress2').click(function(){
         $("#espressoguide").hide();
         $("#v60guide").hide();
         $("#aeropressguide").show();
@@ -26,7 +26,7 @@ $(document).ready(function(){
         $("#mokapotguide").hide();
     });
   
-    $("#frenchpress").click(function(){
+    $('#frenchpress, #frenchpress2').click(function(){
         $("#espressoguide").hide();
         $("#v60guide").hide();
         $("#aeropressguide").hide();
@@ -35,7 +35,7 @@ $(document).ready(function(){
         $("#mokapotguide").hide();
     });
 
-    $("#chemex").click(function(){
+    $('#chemex,#chemex2').click(function(){
         $("#espressoguide").hide();
         $("#v60guide").hide();
         $("#aeropressguide").hide();
@@ -44,7 +44,7 @@ $(document).ready(function(){
         $("#mokapotguide").hide();
     });
 
-    $("#mokapot").click(function(){
+    $('#mokapot, #mokapot2').click(function(){
         $("#espressoguide").hide();
         $("#v60guide").hide();
         $("#aeropressguide").hide();
