@@ -429,3 +429,19 @@ p{
     margin-left: 10px;
     margin-right: 10px;
 }
+#v60guide{
+    display: none; 
+}
+#aeropressguide{
+    display: none; 
+}
+#frenchpressguide{
+    display: none; 
+}
+#chemexguide{
+    display: none; 
+}
+#mokapotguide{
+    display: none; 
+}
+
