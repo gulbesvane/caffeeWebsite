@@ -1,0 +1,484 @@
+/* GENERAL STYLING DESKTOP*/
+ body{
+    overflow-x: hidden;
+    background-color:white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0;
+    color:#242424;
+}
+
+h2{
+    letter-spacing: .1rem;
+}
+
+h3{
+    font-weight: 300;
+}
+
+p{
+    font-family: “Nunito Sans”,sans-serif;
+    font-weight: 300;
+}
+
+/*--------Navbar--------*/
+ .navbar{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #242424 !important;
+    text-decoration:underline;
+    text-underline-offset: 0.4rem;
+    text-decoration-color: #c7a079;
+    text-decoration-thickness: 0.25rem;
+}
+.navbar-nav li{
+    padding-right: .7rem;
+}
+.sticky{
+    background-color:#adaeb2d1;
+}
+
+/*----------Header-----------*/
+.carousel-item{
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slide1{
+    background-image: url('../images/desktop1.jpg');
+}
+#slide2{
+    background-image: url('../images/desktop2.jpg');
+}
+#slide3{
+    background-image: url('../images/desktop3.jpg');
+}
+#brewguide{
+    background-image: url('../images/Coffee\ brew\ guides\ by\ CAFFEE.jpg');
+}
+#founders{
+    background-image: url('../images/CAFFEE\ Founders.jpg');
+}
+
+.carousel-caption{
+    position:absolute;
+    top:22%;
+    width:100%;
+    left:0;
+    right:0;
+}
+
+.carousel-caption h1{
+    font-size:10vw;
+    font-weight:400;
+    letter-spacing: .7rem;
+    color:#242424;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption h3{
+    padding-bottom: 1vw;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: #473f3f;
+    opacity: .1;
+}
+
+/*--------Footer section---------*/
+.footer-container{
+    background-color: #c2c1bc;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.footer-col{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    flex-basis:40%;
+    text-align: center;
+}
+.row-inner1{
+    padding-bottom: 1vw;
+    align-items: center;
+}
+.row-inner1 h6{
+    margin-bottom: 0;
+}
+
+.row-inner2 h6{
+    margin-bottom: 0;
+    font-weight:300;
+}
+
+.social-icon{
+    padding-left: 0.5rem;
+    padding-right: .5rem;
+    text-decoration: none;
+}
+
+.footer-link{
+    color:white;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    padding-right: .7rem;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color:#242424!important;
+    text-decoration:underline;
+    text-underline-offset: 0.2rem;
+    text-decoration-color: #c7a079;
+    text-decoration-thickness: 0.15rem;
+}
+
+/*---------Buttons-----------*/
+
+.btn{
+    border-color: #c7a079;
+    border-radius: 0;
+    border-width: medium;
+}
+.btn:focus{
+    box-shadow: none!important;
+}
+
+.btn-header:hover{
+    color:white!important;
+    border-color:white!important;
+}
+
+.btn-lg{
+    background-color: #c7a079;
+    color:white;
+}
+.btn-md{
+    background-color: transparent;
+    color:#c7a079;
+}
+.btn-lg:hover{
+    background-color: transparent;
+    color:#c7a079;
+    border-color: #c7a079;
+}
+.btn-md:hover{
+    background-color: #c7a079;
+    color:white;
+}
+
+
+/*-------------HOME PAGE---------------*/
+.card{
+    width: 20rem;
+    margin:10vh 0vh;
+    border:none;
+    text-align:center;
+}
+
+.card-img-top{
+    width:88px;
+    margin:auto;
+}
+
+/*---Promo video section------*/
+.video-container {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+#video-bg {
+    width: 100%;
+    height: auto;
+    transform: translate(0, -30%);
+}
+
+/*----Cofee/gear description section----*/
+.description{
+    align-items: center;
+    margin: 8vh 15vh;
+}
+.description-img{
+    width:80%;
+}
+.align-right{
+    text-align: right!important;
+}
+
+/* Section for fade-in images */
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
+.js-scroll.scrolled {
+    opacity: 1;
+  }
+
+.scrolled.slide-left {
+    animation: slide-in-left 1s ease-in-out both;
+  }
+  
+.scrolled.slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+  }
+
+/* @keyframes makes the element go gradually from -100px to 0px on x axis and from 0 opacity to fully visible */
+@keyframes slide-in-left {
+0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+}
+100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+  
+@keyframes slide-in-right {
+0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0;
+}
+100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+
+/*------CONTACT PAGE------*/
+
+.contact-col{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+#googleMap{
+    width:100%;
+    height:100%;
+    border:0;
+}
+
+#form {
+    color: #242424;
+}
+
+#form .form-control {
+    border-radius: 0;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.1rem #24242449;
+}
+
+.form-group{
+    padding-bottom: 2vw;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color:#242424;
+}
+
+
+/*---------TABLET AND MOBILE SIZE----------*/
+@media all and (max-width: 991px){
+
+/*---------Nav bar-------------*/
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1rem;
+}
+
+.container-sm{
+    max-width: 850px;
+} 
+
+/*-----------Header(MOBILE/TABLET)------------*/
+.carousel-caption{
+    top:40%;
+}
+
+#slide1{
+    background-image: url('../images/mobile1.jpg');
+}
+#slide2{
+    background-image: url('../images/mobile2.jpg');
+}
+#slide3{
+    background-image: url('../images/mobile3.jpg');
+}
+#brewguide{
+    background-image: url('../images/Coffee\ brew\ guides\ by\ CAFFEE.jpg');
+}
+#founders{
+    background-image: url('../images/CAFFEE\ Founders.jpg');
+}
+
+/*------Footer(MOBILE/TABLET)---------*/
+.footer-container{
+    display: block;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.row-inner1{
+    padding-bottom: 2vw;
+}
+
+/*------HOME PAGE(MOBILE/TABLET)----------*/
+.card{
+    width: 28rem;
+    margin:5vh 0vh;
+}
+.card-img-top{
+    width:106px;
+}
+
+/*--------Promo video section-----------*/
+.video-container {
+    max-height: 400px;
+}
+
+#video-bg{
+    width:200%;  
+    transform: translate(-25%, -15%); 
+}
+
+/*----Cofee/gear description section----*/
+.description{
+    margin:5vh 5vh;
+}
+.description-img{
+    padding-bottom: 5vh;
+    width: 90%;
+}
+
+/*------CONTACT PAGE(MOBILE/TABLET)------*/
+#googleMap{
+    height:400px;
+}
+
+} 
+
+/*------ABOUT & COFFEE/GEAR PAGES------*/
+.about{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    justify-content: center;
+    align-items: center; 
+}
+.coffeebackground{
+    background-color: #c7a079; 
+}
+.central{
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.zoom {
+    transition: transform .2s; 
+    padding: 10px; 
+  }
+.zoom:hover {
+    transform: scale(1.5); 
+}
+#requirements{
+    font-family: “Nunito Sans”,sans-serif;
+    font-weight: 300;
+}
+.accordion-header{
+    font-family: “Nunito Sans”,sans-serif;
+    font-weight: 300;
+}
+.accordion-button:not(.collapsed){
+    color:white;
+    background-color: #c7a079;
+}
+.accordion-button:focus{
+    border-color: #c7a079;
+    background-color: #c7a079;
+    box-shadow: 0 0 0 0.25rem #c7a079;
+}
+.light{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255);
+    opacity: 0.3;
+}
+.btn-coffee{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#v60guide{
+    display: none; 
+}
+#aeropressguide{
+    display: none; 
+}
+#frenchpressguide{
+    display: none; 
+}
+#chemexguide{
+    display: none; 
+}
+#mokapotguide{
+    display: none; 
+}
+.thisislink{
+    color:black;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    text-decoration:underline;
+    text-underline-offset: 0.2rem;
+    text-decoration-color: #c7a079;
+    text-decoration-thickness: 0.15rem;
+}
+.thisislink:hover{
+    color:#c7a079;
+}
+/*------RESPONSIVE IFRAME FOR YOUTUBE EMBED------*/
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
